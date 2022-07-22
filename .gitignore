@@ -1,3 +1,5 @@
+rokem-ml/tree.dot
+rokem-ml/images/tree.png
 *.ipynb_checkpoints
 __pycache__
 gratton-connectivity/output/
