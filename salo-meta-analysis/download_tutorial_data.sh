@@ -8,7 +8,7 @@
 # If you are running this tutorial locally, you will need to change the
 # DATA_DIR variable in the notebook.
 
-DIR="data/meta-analysis/"
+DIR="/home/jovyan/shared-readwrite/meta-analysis/"
 if [ -d "$DIR" ]; then
     echo "$DIR exists."
 else
