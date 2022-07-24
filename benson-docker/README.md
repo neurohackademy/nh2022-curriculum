@@ -23,6 +23,27 @@ This repository generates the corresponding lesson website from [The Carpentries
 If you are interested in Singularity as opposed to Docker, see the Singularity lesson in the Carpentries Incubator: 
 * [Reproducible Computational Environments Using Containers: Introduction to Singularity](https://github.com/carpentries-incubator/singularity-introduction)
 
+
+## Setup
+
+In order to follow along with this tutorial, you need to have completed three steps:
+
+1. **Install Docker.** [This link](https://docs.docker.com/get-docker/) will take you to the 
+   official Docker installation page, which covers installation for Mac, Windows, and Linux.
+2. **Make sure Docker is running**. On Windows and Mac, this requires running the Docker
+   Desktop program on Windows and Mac or starting the Docker daemon on Linux. For Windows,
+   the Docker Desktop program should be in your start menu. On Mac, you should be able to
+   search for Docker (press command + spacebar then type docker). On Linux, the Docker
+   daemon usually starts automatically, but the most common command to start it is
+   `sudo systemctl start docker`.
+3. **Install BASH**. If you are using Mac or Linux, then BASH (or ZSH, which is also fine)
+   should already be installed for you. If you are using Windows, then you will need to
+   install git-bash or the Windows Subsystem for Linux; instructions for this installation
+   can be found [here](https://carpentries.github.io/workshop-template/#shell). If you are
+   using Mac or Linux and are having trouble finding the BASH shell, this page also has
+   instructions for opening a shell.
+
+
 ## Contributing
 
 We welcome all contributions to improve the lesson! Maintainers will do their best to help you if you have any
