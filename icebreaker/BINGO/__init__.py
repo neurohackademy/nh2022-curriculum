@@ -18,7 +18,8 @@ import numpy as np
 # Make sure we can use the Helvetica Neue font (if it exists) and that we use
 # helvetica or arial if not.
 mpl_font_config = {'family':'sans-serif',
-                   'sans-serif':['HelveticaNeue', 'Helvetica', 'Arial'],
+                   'sans-serif':['HelveticaNeue', 'Helvetica', 'Arial',
+                                 'Ubuntu'],
                    'size': 10,
                    'weight': 'light'}
 mpl.rc('font', **mpl_font_config)
