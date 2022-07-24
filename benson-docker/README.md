@@ -7,8 +7,8 @@ This directory contains the Docker tutorial for the 2021 NeuroHackademy. The tut
 This directory itself is a Jekyll website; however it can be run as a web-server using Docker quite easily; if you have Docker installed and running, you can do the following to start the web-server:
 
 ```bash
-# In BASH:
-$ cd nh2021-curriculum/docker-tutorial
+# In BASH, not on the JupyterHub:
+$ cd nh2022-curriculum/benson-docker
 $ docker compose up
 ```
 
