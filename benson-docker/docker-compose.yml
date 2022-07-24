@@ -1,0 +1,9 @@
+version: '3'
+services:
+  my-jekyll-server:
+    image: jekyll/jekyll:stable
+    volumes:
+      - "${PWD}:/srv/jekyll"
+    ports:
+      - "127.0.0.1:4000:4000"
+    command: jekyll serve
