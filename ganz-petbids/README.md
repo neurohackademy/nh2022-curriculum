@@ -4,7 +4,7 @@ In this tutorial, I will introduce you quickly to the PET BIDS standard and it's
 
 1) First, I will introduce you quickly to the PET BIDS format
 2) Then, I will show you how to convert a positron emission tomography dataset into PET BIDS format using the [PET2BIDS](https://github.com/openneuropet/PET2BIDS) converter. A much more extended version of the conversion part of this this tutorial can be found in the [BIDS Starter Kit](https://bids-standard.github.io/bids-starter-kit/).
-3) Finally, we will run a single PET analysis (a simple kinetic modelling analysis) with a simple processing pipeline developed based on PETSurfer. A more extensive description of the tutorial is given in the [PET_pipelines](https://github.com/openneuropet/PET_pipelines/tree/main/pyPetSurfer) repository.
+3) Finally, we will go through the steps needed to run a single PET analysis (a simple kinetic modelling analysis) with a simple processing pipeline developed based on PETSurfer. A more extensive description of the tutorial is given in the [PET_pipelines](https://github.com/openneuropet/PET_pipelines/tree/main/pyPetSurfer) repository. Unfortunately, we will not be able to run the full analysis on the Jupyter Hub, but it would anyways take too long.
 
 ## Preparations
 
@@ -19,5 +19,5 @@ There are three steps to prepare for the tutorial:
 
 
 ## Acknowledgements
-Most of these tools were developed by collaborators within the [OpenNeuroPET](https://openneuropet.github.io/) project. OpenNeuroPET is a collaboration between Stanford university, NIH, MGH  and the Neurobiology Research Unit (NRU) at Copenhagen University  Hospital. It is funded through the BRAIN initiative and  the Novo Nordisk foundation. 
+Most of these tools were developed by collaborators within the [OpenNeuroPET](https://openneuropet.github.io/) project. OpenNeuroPET is a collaboration between Stanford university, NIH, MGH  and the Neurobiology Research Unit (NRU) at Copenhagen University  Hospital. The project is funded by [Novo Nordisk fonden](https://novonordiskfonden.dk/en/) (NNF20OC0063277) and the [BRAIN initiative](https://braininitiative.nih.gov/) (MH002977-01).
 
